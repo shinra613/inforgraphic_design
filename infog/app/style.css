@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+
+
+.main-container{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.circle-one{
+    width: 400px;
+    aspect-ratio : 1 / 1;
+   
+    background-color: #092327;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+}
+
+.circle{
+  
+    aspect-ratio : 1 / 1;
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: absolute;
+
+
+
+}
+
+.two{
+    width: 350px;
+    background-color: #23433D;
+}
+
+.three{
+    width:300px;
+    background-color: #276860;
+}
+
+.four{
+    width: 250px;
+    background-color: #197676;
+}
+
+.five{
+    width: 200px;
+    background-color: #20a39e;
+}
+
+.six{
+    width: 150px;
+    background-color: #7EC9C8;
+}
+
+.seven{
+    width: 100px;
+    background-color: #9AD5D5;
+}
+
+.eight{
+
+    width: 50px;
+    background-color: #B7E1E1;
+    
+}
+
+.ccontent{
+    color:white; 
+    font-size: 30px;
+  text-shadow: 2px 2px 4px black;
+
+  font-family: 'Noto Sans', sans-serif;
+
+}

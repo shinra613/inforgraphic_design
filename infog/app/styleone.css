@@ -1,0 +1,136 @@
+body{
+    padding-top : 20%;
+    background-color: rgb(11, 4, 36);
+}
+
+.page-container{
+width: 60%;
+margin-top: 25%;
+margin: auto;
+position: relative;
+max-width: 100%;
+
+}
+
+
+.mc-container{
+width: 100px;
+height: 100px;
+max-width: 100%;
+max-height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+position: relative;
+background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+box-shadow:
+  
+    0 0 500px .5px #4f0599; /* outer cyan */
+
+}
+
+.line{
+position: absolute;
+max-width: 100%;
+top:50%;
+left: 10%;
+    width: 90%;
+    height: 3px;
+    background: #7F00FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: -1;
+}
+.main-circle{
+    width: 90px;
+    height: 90px;
+    max-width: 100%;
+
+max-height: 100%;
+color: white;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+}
+
+.mc-container-ult{
+
+    width: 150px;
+height: 150px;
+max-width: 100%;
+max-height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+position: relative;
+background: #7F00FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     z-index: 1;
+    }
+    
+    .main-circle-ult{
+        width: 125px;
+      
+    height: 125px;
+    max-width: 100%;
+    max-height: 100%;
+  
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+.circle-slab{
+    display: flex;
+    width: 70%;
+    max-width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+}
+
+
+.c2{
+    
+ 
+ 
+    transform: rotate(45deg);
+}
+
+.c2>.mc-container{
+    transform: rotate(-45deg);
+}
+.c3{
+    transform: rotate(90deg);
+}
+
+.c3>.mc-container{
+    transform: rotate(-90deg);
+}
+
+.c4{
+  
+    transform: rotate(135deg);
+}
+
+.c4>.mc-container{
+    transform: rotate(-135deg);
+}
+
+
+
